@@ -8,4 +8,5 @@ content/data/ghost-local.db
 
 content/themes/*
 !content/themes/.gitkeep
+!content/themes/custom
 !content/themes/casper
