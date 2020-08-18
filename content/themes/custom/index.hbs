@@ -15,7 +15,7 @@ into the {body} of the default.hbs template --}}
                     {{/if}}
                 </h1>
                 <h2 class="site-description">{{@site.description}}</h2>
-                <p>This is now the modified homepage booooi</p>
+                <p>Hmm yes this is now custom</p>
             </div>
         </div>
     </div>
@@ -24,10 +24,9 @@ into the {body} of the default.hbs template --}}
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
     <div class="inner posts">
-<h1>Testing version control on the site</h1>
+
         <div class="post-feed">
             {{#foreach posts}}
-                <h1>Testing version control on the new site</h1>
 
                 {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
                 {{> "post-card"}}
